@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="httpRequests.JSONSchemaValidator">
+      <class name="authenticationAndAuthorization.OAuth2">
         <methods>
-          <include name="getJSONSchemaValidation"/>
+          <include name="accessValidAPI"/>
         </methods>
-      </class> <!-- httpRequests.JSONSchemaValidator -->
+      </class> <!-- authenticationAndAuthorization.OAuth2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
